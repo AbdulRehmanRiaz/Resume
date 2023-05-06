@@ -1,0 +1,318 @@
+.flex-container{
+    display: flex;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn {   
+	  width: 100%;
+	  padding: 10px;
+	}
+  }
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+
+}
+
+.nav{
+    
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.main{
+box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+
+.img img{
+    margin: 0;
+    width: 100%;
+}
+
+.education{
+    width: 90%;
+    height: 50px;
+	font-size: 20px;
+	color: white;
+	margin-left: 50px;
+	padding-top: 10px;
+    border-bottom: 2px solid yellow;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+   }
+
+   .major1{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	font-size: 20px;
+	color: white;
+	padding-left: 70px;
+	margin-top:10px;
+   }
+
+   .major2{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	font-size: 20px;
+	color: white;
+	padding-left: 70px;
+   }
+
+
+   .data{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	font-size: 20px;
+	color: white;
+	padding-left: 70px;
+   }
+
+   .reference{
+    width: 90%;
+	height: 50px;
+	display: flex;
+	font-size: 20px;
+	color: white;
+	margin-left: 50px;
+	font-family: 'LRegularucida Sans', 'Lucida Sans ', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border-bottom: 2px solid yellow;
+   }
+
+   .refer1{
+	
+	width: 100%;
+	height: 30px;
+	color: white;
+    display: flex;
+    font-size: 22px;
+	padding-left: 70px;
+	padding-top: 20px;
+
+ }
+
+.refer{
+	display: flex;
+	width: 100%;
+	height: 100px;
+	font-size: 18px;
+	color: white;
+	padding-left: 70px;
+}
+
+.refer2{
+	display: flex;
+	width: 100%;
+	height: 30px;
+	font-size: 22px;
+	color: white;
+	padding-left: 70px;
+ }
+.p{
+	color: white;
+	font-size: 20px;
+}
+
+.contact{
+	width: 100%;
+	height: 32px;
+	font-size: 30px;
+	color: white;
+	display: flex;
+	margin-top:20px;
+ }
+
+ .yellowBox{
+	width: 15%;
+	height: 30px;
+    margin-bottom: 5px;
+    background-color: yellow;
+
+ }
+
+ .phone{
+	width: 85%;
+	height: 25px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+    padding-left: 20px;
+	background-color: rgb(36, 35, 35);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+ h3{
+	color: white;
+	padding-left: 100px;
+	padding-bottom: 20px;
+ }
+
+ .email{
+	width: 85%;
+	height: 25px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+    padding-left: 20px;
+	background-color: rgb(36, 35, 35);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.website{
+	width: 85%;
+	height: 25px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+    padding-left: 20px;
+	background-color: rgb(36, 35, 35);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.address{
+	color: white;
+	width: 85%;
+	height: 25px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+    padding-left: 20px;
+	background-color: rgb(36, 35, 35);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.info{
+    
+    height: 200px;
+    display: flex;
+    padding-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background-color: yellow;
+}
+
+.myname{
+    display: flex;
+  color: black;
+  font-size: 50px;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.title{
+    display: flex;
+    color: black;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.about{
+    display: flex;
+    width: 90%;
+    height: 40px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 5px;
+    border-bottom: 3px solid black;
+}
+
+
+.para{
+	display: flex;
+	padding-top: 20px;
+	height: 50px;
+	padding-left: 48px;
+	font-size: 20px;
+}
+
+.work{
+display: flex;
+		width: 90%;
+		height: 40px;
+		margin-left: 50px;
+		padding-top: 40px;
+		padding-left: 5px;
+		border-bottom: 3px solid black;
+}
+
+.experience{
+    height: 700px;
+	padding:30px;
+	margin-left: 25px;
+}
+
+.years{
+   width: 30%;
+   float: left;
+ 
+}
+
+.year{
+width: 30%;
+height: 200px;
+font-size: 20px
+}
+
+.jobtitles{
+	width: 70%;
+	margin-bottom: 20px;
+
+}
+
+.jobtitle{
+	font-size: 40px;
+}
+
+.comapany{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.detail{
+	margin-bottom: 80px;
+	font-size: 20px;
+}
+
+.soft{
+
+    display: flex;
+     width: 90%;
+     height: 40px;
+     margin-left: 50px;
+     padding-top: 20px;
+     padding-left: 5px;
+     border-bottom: 3px solid black;
+}
+
+.skill{
+	margin:10px 0px 0px 0px;
+display: flex;
+width: 100%;
+padding-top: 20px;
+}
+
+.progress1{
+	display: flex;
+	height: auto;
+	width: 100%;
+	padding-left: 100px;
+	flex-direction: column;
+}
+
+.progress2{
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding-left: 0px;
+	flex-direction: column;
+}
+
